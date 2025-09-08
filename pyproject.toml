@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "web_service_python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["fastapi[standard-no-fastapi-cloud-cli]", "hashids", "pytest", "flit_core"]
+
+[tool.flit.module]
+name = "web_service_python"
