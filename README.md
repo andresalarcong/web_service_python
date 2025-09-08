@@ -9,6 +9,6 @@ Before you begin, ensure you have the following installed:
 - uv
 
 ## Setup & Installation
-1. Clone the repository:
-2. Running the Application: 'uv run fastapi dev src/main.py'
-3. 
+1. Clone the repository.
+2. Into the project, running the Application: 'uv run fastapi dev src/main.py'
+3. Run integration test: 'uv run pytest'
